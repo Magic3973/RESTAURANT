@@ -1,27 +1,380 @@
+/*   ****************header*************   */
 
 
-header {
-    
-    background-image: url(img/back.jpg);
-    background : cover;
-    
-    
-    div{
-        
-        
-        
-        
-        
+body {
+    margin: 0;
+
+    header {
+        display: flex;
+        flex-direction: column;
+
+        background-image: url(img/back.jpg);
+        background: cover, no-repeat;
+        height: 750px;
+        width: 100%;
+
+
+        #milieu {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 140px;
+
+            h1 {
+                font-family: 'Yeseva One', cursive;
+                font-weight: 400;
+                color: white;
+                text-align: center;
+                font-size: 90px;
+                margin-left: 10%;
+                margin-right: 10%;
+                line-height: 1.5;
+            }
+
+            #bouton {
+
+                margin-top: 50px;
+            }
+
+            #bg {
+
+                border-bottom: 1px solid black;
+                padding: 12px 45px 12px 45px;
+                font-family: 'Lato', cursive;
+                font-size: 18px;
+                color: white;
+                background: rgba(0, 0, 0, 0.40);
+                text-decoration: none;
+                margin-right: 20px;
+            }
+
+
+
+
+            #bd {
+                text-decoration: none;
+                border-bottom: 1px solid white;
+                font-family: 'Lato', cursive;
+                font-size: 18px;
+                color: white;
+                background: rgba(255, 255, 255, 0.5);
+                padding: 12px 45px 12px 45px;
+
+            }
+        }
+
+        #menu {
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 7%;
+
+
+            i {
+                color: #dab33e;
+                padding: none;
+            }
+
+            a.nav-link {
+                display: flex;
+
+                font-family: 'Gentium Book Basic', serif;
+                font-size: 21px;
+                color: #f8f9fa;
+                padding-left: 28%;
+
+            }
+
+            span.navbar-toggler-icon {
+                
+                color: white;
+                height: 50px;
+            }
+
+            #logo {
+                margin-left: 10%;
+                margin-right: 15%;
+            }
+        }
+
+
     }
-    
-    
-    
+
+
+    /*  ***************main**********************   */
+    /*  *************section 1 *******************  */
+
+    #cook {
+
+        background-image: url(img/bgchef.jpg);
+        background: cover, no-repeat;
+        height: 710px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        #cooker {
+            width: 50%;
+            margin: 20px 0 20px 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+
+            h2 {
+                font-family: 'Yeseva One', cursive;
+                font-weight: 400;
+                color: #cc9900;
+                text-align: center;
+                font-size: 36px;
+                margin-left: 10%;
+                margin-right: 10%;
+                line-height: 1.5;
+                margin-bottom: 3%;
+            }
+
+            #frise {}
+
+            #textcker {
+                font-family: 'Lato', cursive;
+                font-size: 16px;
+                text-align: justify;
+                margin-top: 6%;
+                margin-left: 8%;
+                margin-right: 8%;
+            }
+        }
+
+        #idishes {
+            width: 50%;
+
+        }
+
+    }
+
+    /*   *************section 2 ***********   */
+
+
+    #basilic {
+
+        background-image: url(img/basilique.jpg);
+        background: cover, no-repeat;
+        height: 758px;
+        width: 100%;
+        padding-top: 8%;
+
+
+        #ardoise {
+            background: rgba(0, 0, 0, 0.40);
+            background: cover;
+            margin-left: 52%;
+            margin-right: 10%;
+            padding-top: 3%;
+            padding-bottom: 3%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+
+
+
+            h2 {
+                font-family: 'Yeseva One', cursive;
+                font-weight: 400;
+                color: white;
+                text-align: center;
+                font-size: 36px;
+                line-height: 1.5;
+                margin-bottom: 3%;
+            }
+
+            #textckerfine {
+                font-family: 'Lato', cursive;
+                font-size: 16px;
+                text-align: center;
+                color: white;
+                margin-top: 6%;
+                margin-left: 20%;
+                margin-right: 20%;
+            }
+
+            #images {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+            }
+
+            .ecart {
+                margin-right: 5%;
+
+            }
+        }
+    }
+
+    /* **************section 3   *************  */
+    #brochettes {
+        background-image: url(img/brochettes.jpg);
+        background: cover, no-repeat;
+        height: 758px;
+        width: 100%;
+        padding-top: 3%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        #guestreviews {
+            background: rgba(0, 0, 0, 0.70);
+            background: cover;
+            margin: 5% 25% 5% 25%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+
+
+            h2 {
+                font-family: 'Yeseva One', cursive;
+                font-weight: 400;
+                color: white;
+                text-align: center;
+                font-size: 36px;
+                line-height: 1.5;
+                margin-top: 10%;
+
+            }
+
+            #textreviews {
+                font-family: 'Gentium Book Basic', serif;
+                font-size: 25px;
+                font-weight: 700;
+                text-align: center;
+                color: white;
+                margin-top: 4%;
+                margin-left: 12%;
+                margin-right: 12%;
+
+            }
+
+            #food {
+                font-family: 'Lato', cursive;
+                font-size: 18x;
+                text-align: center;
+                color: white;
+                margin-bottom: 10%;
+            }
+
+            #guillemet {}
+        }
+    }
+
+    /*    ********** section 4   ***********   */
+
+    #contact {
+        background-image: url(img/bgchef.jpg);
+        background: cover, no-repeat;
+        height: 710px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+
+
+        #imag {
+            width: 50%;
+            padding: 10% 2% 10% 2%;
+        }
+
+        img {
+            padding-right: 5%
+        }
+
+        #theend {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 10%;
+            margin-left: 5%;
+            margin-right: 5%;
+
+
+            h2 {
+                font-family: 'Yeseva One', cursive;
+                font-weight: 400;
+                color: #cc9900;
+                text-align: center;
+                font-size: 36px;
+                margin-left: 10%;
+                margin-right: 10%;
+                line-height: 1.5;
+                margin-bottom: 3%;
+            }
+
+            #textcker2 {
+                font-family: 'Lato', cursive;
+                font-size: 16px;
+                text-align: center;
+                margin-top: 6%;
+                margin-left: 8%;
+                margin-right: 8%;
+            }
+
+            .button {
+
+                border-bottom: none;
+                font-family: 'Open Sans', sans-serif;
+                font-size: 16px;
+                color: white;
+                background: #c9a131;
+                text-decoration: none;
+                margin-top: 2%;
+                padding: 12px 45px 12px 45px;
+            }
+
+
+        }
+
+        .titre {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14px;
+            font-weight: 700;
+            color: #c9a131;
+            margin-left: 5%;
+            
+            }
+
+        #titre {
+
+            border-bottom: 2px solid #c9a131;
+
+        }
+        select {
+            border-bottom: 1px solid #7c7c7c;
+        }
+
+
+       input {
+            font-family: 'Open Sans', sans-serif;
+            font-style: italic;
+            font-size: 16px;
+            font-weight: 700;
+            color: #7c7c7c;
+            padding: 5%;
+            box-sizing: border-box;
+        }
+
+        #formu {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        span {
+            display: flex;
+            flex: row;
+        }
+
+    }
+
 }
-
-
-
-
-
-
 
 

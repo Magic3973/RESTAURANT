@@ -1,0 +1,250 @@
+/*   ****************header*************   */
+body {
+  margin: 0;
+  /*  ***************main**********************   */
+  /*  *************section 1 *******************  */
+  /*   *************section 2 ***********   */
+  /* **************section 3   *************  */
+  /*    ********** section 4   ***********   */ }
+  body header {
+    display: flex;
+    flex-direction: column;
+    background-image: url(img/back.jpg);
+    background: cover, no-repeat;
+    height: 750px;
+    width: 100%; }
+    body header #milieu {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 140px; }
+      body header #milieu h1 {
+        font-family: 'Yeseva One', cursive;
+        font-weight: 400;
+        color: white;
+        text-align: center;
+        font-size: 90px;
+        margin-left: 10%;
+        margin-right: 10%;
+        line-height: 1.5; }
+      body header #milieu #bouton {
+        margin-top: 50px; }
+      body header #milieu #bg {
+        border-bottom: 1px solid black;
+        padding: 12px 45px 12px 45px;
+        font-family: 'Lato', cursive;
+        font-size: 18px;
+        color: white;
+        background: rgba(0, 0, 0, 0.4);
+        text-decoration: none;
+        margin-right: 20px; }
+      body header #milieu #bd {
+        text-decoration: none;
+        border-bottom: 1px solid white;
+        font-family: 'Lato', cursive;
+        font-size: 18px;
+        color: white;
+        background: rgba(255, 255, 255, 0.5);
+        padding: 12px 45px 12px 45px; }
+    body header #menu {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 7%; }
+      body header #menu i {
+        color: #dab33e;
+        padding: none; }
+      body header #menu a.nav-link {
+        display: flex;
+        font-family: 'Gentium Book Basic', serif;
+        font-size: 21px;
+        color: #f8f9fa;
+        padding-left: 28%; }
+      body header #menu span.navbar-toggler-icon {
+        color: white;
+        height: 50px; }
+      body header #menu #logo {
+        margin-left: 10%;
+        margin-right: 15%; }
+  body #cook {
+    background-image: url(img/bgchef.jpg);
+    background: cover, no-repeat;
+    height: 710px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center; }
+    body #cook #cooker {
+      width: 50%;
+      margin: 20px 0 20px 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      body #cook #cooker h2 {
+        font-family: 'Yeseva One', cursive;
+        font-weight: 400;
+        color: #cc9900;
+        text-align: center;
+        font-size: 36px;
+        margin-left: 10%;
+        margin-right: 10%;
+        line-height: 1.5;
+        margin-bottom: 3%; }
+      body #cook #cooker #textcker {
+        font-family: 'Lato', cursive;
+        font-size: 16px;
+        text-align: justify;
+        margin-top: 6%;
+        margin-left: 8%;
+        margin-right: 8%; }
+    body #cook #idishes {
+      width: 50%; }
+  body #basilic {
+    background-image: url(img/basilique.jpg);
+    background: cover, no-repeat;
+    height: 758px;
+    width: 100%;
+    padding-top: 8%; }
+    body #basilic #ardoise {
+      background: rgba(0, 0, 0, 0.4);
+      background: cover;
+      margin-left: 52%;
+      margin-right: 10%;
+      padding-top: 3%;
+      padding-bottom: 3%;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      body #basilic #ardoise h2 {
+        font-family: 'Yeseva One', cursive;
+        font-weight: 400;
+        color: white;
+        text-align: center;
+        font-size: 36px;
+        line-height: 1.5;
+        margin-bottom: 3%; }
+      body #basilic #ardoise #textckerfine {
+        font-family: 'Lato', cursive;
+        font-size: 16px;
+        text-align: center;
+        color: white;
+        margin-top: 6%;
+        margin-left: 20%;
+        margin-right: 20%; }
+      body #basilic #ardoise #images {
+        display: flex;
+        flex-direction: row;
+        align-items: center; }
+      body #basilic #ardoise .ecart {
+        margin-right: 5%; }
+  body #brochettes {
+    background-image: url(img/brochettes.jpg);
+    background: cover, no-repeat;
+    height: 758px;
+    width: 100%;
+    padding-top: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    body #brochettes #guestreviews {
+      background: rgba(0, 0, 0, 0.7);
+      background: cover;
+      margin: 5% 25% 5% 25%;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      body #brochettes #guestreviews h2 {
+        font-family: 'Yeseva One', cursive;
+        font-weight: 400;
+        color: white;
+        text-align: center;
+        font-size: 36px;
+        line-height: 1.5;
+        margin-top: 10%; }
+      body #brochettes #guestreviews #textreviews {
+        font-family: 'Gentium Book Basic', serif;
+        font-size: 25px;
+        font-weight: 700;
+        text-align: center;
+        color: white;
+        margin-top: 4%;
+        margin-left: 12%;
+        margin-right: 12%; }
+      body #brochettes #guestreviews #food {
+        font-family: 'Lato', cursive;
+        font-size: 18x;
+        text-align: center;
+        color: white;
+        margin-bottom: 10%; }
+  body #contact {
+    background-image: url(img/bgchef.jpg);
+    background: cover, no-repeat;
+    height: 710px;
+    width: 100%;
+    display: flex;
+    flex-direction: row; }
+    body #contact #imag {
+      width: 50%;
+      padding: 10% 2% 10% 2%; }
+    body #contact img {
+      padding-right: 5%; }
+    body #contact #theend {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 10%;
+      margin-left: 5%;
+      margin-right: 5%; }
+      body #contact #theend h2 {
+        font-family: 'Yeseva One', cursive;
+        font-weight: 400;
+        color: #cc9900;
+        text-align: center;
+        font-size: 36px;
+        margin-left: 10%;
+        margin-right: 10%;
+        line-height: 1.5;
+        margin-bottom: 3%; }
+      body #contact #theend #textcker2 {
+        font-family: 'Lato', cursive;
+        font-size: 16px;
+        text-align: center;
+        margin-top: 6%;
+        margin-left: 8%;
+        margin-right: 8%; }
+      body #contact #theend .button {
+        border-bottom: none;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        color: white;
+        background: #c9a131;
+        text-decoration: none;
+        margin-top: 2%;
+        padding: 12px 45px 12px 45px; }
+    body #contact .titre {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      color: #c9a131;
+      margin-left: 5%; }
+    body #contact #titre {
+      border-bottom: 2px solid #c9a131; }
+    body #contact select {
+      border-bottom: 1px solid #7c7c7c; }
+    body #contact input {
+      font-family: 'Open Sans', sans-serif;
+      font-style: italic;
+      font-size: 16px;
+      font-weight: 700;
+      color: #7c7c7c;
+      padding: 5%;
+      box-sizing: border-box; }
+    body #contact #formu {
+      display: flex;
+      flex-direction: row;
+      align-items: center; }
+    body #contact span {
+      display: flex;
+      flex: row; }
+
+/*# sourceMappingURL=style.css.map */
