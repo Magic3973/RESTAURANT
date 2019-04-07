@@ -37,10 +37,10 @@
 
             <div>
 
-                <nav class="navbar navbar-expand-md bg-transparent navbar-transparent">
+                <nav class="navbar navbar-expand-md bg-transparent <navbar-dark></navbar-dark>">
 
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                        <span class="navbar-toggler-icon"></span>
+                        <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
                     </button>
                     <div class="collapse navbar-collapse" id="collapsibleNavbar">
                         <ul class="navbar-nav">
@@ -201,29 +201,33 @@
                     <p>If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food.
                         Delicious Lambda cakes, muffins, and gourmet coffees make us hard to resist! Stop in today and check us out! Perfect materials and freshly baked food.</p>
                 </div>
-                
 
-<div id="formu">
+
+                <div id="formu">
                     <form name="contact" action="page-envoi.html" method="get">
 
-                        <span><p class="titre">Name<br>
-                        <input id="titre" type="text" id="name" placeholder=" your name *"></p>
-                        <p class="titre">Name<br>
-                            <input type="text" id="name" placeholder=" your email *"></p></span>
-                       <span><p class="titre">Date<br>
-                        <input type="date" id="date" placeholder=" date *">
-                       
-                         <p class="titre">Party number<br>
-                            <select name="profil">
-                                <option value="party">Un anniversaire</option>
-                                <option value="profe" selected="selected">party number</option>
-                            </select>
-                           </p></span>
-                            <input type="submit" value="Book now!" class="button">
+                        <span>
+                            <p class="titre">Name<br>
+                                <input id="titre" type="text" id="name" placeholder=" your name *"></p>
+                            <p class="titre">Name<br>
+                                <input type="text" id="name" placeholder=" your email *"></p>
+                        </span>
+                        <span>
+                            <p class="titre">Date<br>
+                                <input type="date" id="date" placeholder=" date *"></p>
+
+                                <p class="titre">Party number<br>
+                                    <select name="profil">
+                                        <option value="party">Un anniversaire</option>
+                                        <option value="profe" selected="selected">party number</option>
+                                    </select>
+                                </p>
+                        </span>
+                        <input type="submit" value="Book now!" class="button">
 
                     </form>
-               </div>
-            
+                </div>
+
             </div>
             <div>
 
@@ -237,7 +241,49 @@
 
     </main>
 
+    <footer>
+        <div id="colonnes">
+            <div id="about">
+                <h3>About Us</h3>
+                <img src="img/frise2.png" alt="frise blanche" weight width="199" height="19">
+                <p class="mef">
+                    Lambda's new and expanded Chelsea location represents a truly authentic <b>Greek</b> patisserie, featuring breakfasts of fresh croissants and steaming bowls of café.
+                    Lamda the best restaurant in town
+                </p>
 
+            </div>
+            <div id="open">
+                <h3>Opening Hours </h3>
+                <img src="img/frise2.png" alt="frise blanche" weight width="199" height="19">
+                <ul>
+              <li><span>Mon-Thu: 7:00am-8:00pm</span></li>
+                   <li><span>Fri-Sun: 7:00am-10:00pm</span></li>
+                </ul>
+                <span>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-paypal"></i>
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-discover"></i></span>
+
+            </div>
+
+            <div id="location">
+                <h3>Our Location </h3>
+                
+                <img src="img/frise2.png" alt="frise blanche" weight width="199" height="19">
+                
+                  <ul>
+                       <li><span><b>19th Paradise Street Sitia</b></span> </li>
+            <li><span><b>128 Meserole Avenue</b></span> </li>
+            
+        </ul>
+                <span><i class="fab fa-twitter"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-facebook-f"></i></span>
+
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
