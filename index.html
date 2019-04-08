@@ -19,6 +19,9 @@
     <link href="https://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,700|Lato:400,700|Open+Sans:300i,400,700|Yeseva+One" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
@@ -97,7 +100,7 @@
                 <img src="img/deco.svg" alt="frise" weight width="232" height="43">
             </div>
             <div id="bouton">
-                <a id="bg" href="book a table" id="bbok">BOOK A TABLE</a>
+                <a id="bg" href="book a table" id="bbook">BOOK A TABLE</a>
 
 
                 <a id="bd" href="see the menu" id="bmenu">SEE THE MENU</a>
@@ -115,7 +118,9 @@
 
                     <img src="img/zigfraises.png" alt="frise dorée" weight width="247" height="24">
                 </div>
+
                 <div id="textcker">
+                  
                     <p>If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food, delicious Lambda cakes, muffins, and gourmet coffees make us hard to resist! Stop in today and check us out!</p>
                 </div>
 
@@ -167,10 +172,11 @@
                 </div>
 
                 <div id="textreviews">
+                
                     <p>
-                        If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food, delicious Lambda cakes, muffins, and gourmet coffees make us hard to resist! Stop in today and check us out!
-                        "
-                    </p>
+                       <i class="fas fa-quote-left"></i> If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food, delicious Lambda cakes, muffins, and gourmet coffees make us hard to resist! Stop in today and check us out!
+                        " 
+                        </p>
                 </div>
                 <div id="food">
                     <p>
@@ -198,8 +204,8 @@
                 </div>
 
                 <div id="textcker2">
-                    <p>If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food.
-                        Delicious Lambda cakes, muffins, and gourmet coffees make us hard to resist! Stop in today and check us out! Perfect materials and freshly baked food.</p>
+                    <p>If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food.</p>
+                       <p> Delicious Lambda cakes, muffins, and gourmet coffees make us hard to resist! Stop in today and check us out! Perfect materials and freshly baked food.</p>
                 </div>
 
 
@@ -210,18 +216,18 @@
                             <p class="titre">Name<br>
                                 <input id="titre" type="text" id="name" placeholder=" your name *"></p>
                             <p class="titre">Name<br>
-                                <input type="text" id="name" placeholder=" your email *"></p>
+                                <input type="text" id="email" placeholder=" your email *"></p>
                         </span>
                         <span>
                             <p class="titre">Date<br>
-                                <input type="date" id="date" placeholder=" date *"></p>
+                                <input id="date" type="date" id="date" placeholder=" date *"></p>
 
-                                <p class="titre">Party number<br>
-                                    <select name="profil">
-                                        <option value="party">Un anniversaire</option>
-                                        <option value="profe" selected="selected">party number</option>
-                                    </select>
-                                </p>
+                            <p class="titre">Party number<br>
+                                <select name="profil">
+                                    <option value="party">Un anniversaire</option>
+                                    <option value="profe" selected="selected">party number</option>
+                                </select>
+                            </p>
                         </span>
                         <input type="submit" value="Book now!" class="button">
 
@@ -247,7 +253,7 @@
                 <h3>About Us</h3>
                 <img src="img/frise2.png" alt="frise blanche" weight width="199" height="19">
                 <p class="mef">
-                    Lambda's new and expanded Chelsea location represents a truly authentic <b>Greek</b> patisserie, featuring breakfasts of fresh croissants and steaming bowls of café.
+                    Lambda's new and expanded Chelsea location represents a truly authentic <b>Greek</b> patisserie, featuring breakfasts of fresh croissants and steaming bowls of café.<br>
                     Lamda the best restaurant in town
                 </p>
 
@@ -256,8 +262,8 @@
                 <h3>Opening Hours </h3>
                 <img src="img/frise2.png" alt="frise blanche" weight width="199" height="19">
                 <ul>
-              <li><span>Mon-Thu: 7:00am-8:00pm</span></li>
-                   <li><span>Fri-Sun: 7:00am-10:00pm</span></li>
+                    <li><span>Mon-Thu: 7:00am-8:00pm</span></li>
+                    <li><span>Fri-Sun: 7:00am-10:00pm</span></li>
                 </ul>
                 <span>
                     <i class="fab fa-cc-mastercard"></i>
@@ -269,17 +275,19 @@
 
             <div id="location">
                 <h3>Our Location </h3>
-                
+
                 <img src="img/frise2.png" alt="frise blanche" weight width="199" height="19">
-                
-                  <ul>
-                       <li><span><b>19th Paradise Street Sitia</b></span> </li>
-            <li><span><b>128 Meserole Avenue</b></span> </li>
-            
-        </ul>
+
+                <ul>
+                    <li><span><b>19th Paradise Street Sitia</b></span> </li>
+                    <li><span><b>128 Meserole Avenue</b></span> </li>
+
+                </ul>
                 <span><i class="fab fa-twitter"></i>
                     <i class="fab fa-youtube"></i>
-                    <i class="fab fa-facebook-f"></i></span>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-trello"></i>
+                </span>
 
             </div>
         </div>

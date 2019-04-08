@@ -25,7 +25,7 @@ body {
     body #milieu #bouton {
       margin-top: 50px; }
     body #milieu #bg {
-      border-bottom: 1px solid black;
+      border: 1px solid black;
       padding: 12px 45px 12px 45px;
       font-family: 'Lato', cursive;
       font-size: 18px;
@@ -35,7 +35,7 @@ body {
       margin-right: 20px; }
     body #milieu #bd {
       text-decoration: none;
-      border-bottom: 1px solid white;
+      border: 1px solid white;
       font-family: 'Lato', cursive;
       font-size: 18px;
       color: white;
@@ -46,7 +46,6 @@ body {
     flex-direction: row;
     margin-bottom: 7%; }
     body #menu a.nav-link {
-      display: flex;
       font-family: 'Gentium Book Basic', serif;
       font-size: 21px;
       color: #f8f9fa; }
@@ -64,7 +63,7 @@ body {
       color: white; }
     body #menu #logo {
       margin-left: 10%;
-      margin-right: 15%; }
+      margin-right: 6%; }
 
 /*  ***************main**********************   */
 /*  *************section 1 *******************  */
@@ -176,6 +175,10 @@ body {
       margin-top: 4%;
       margin-left: 12%;
       margin-right: 12%; }
+      #brochettes #guestreviews #textreviews i {
+        font-size: 50px;
+        text-align: left;
+        color: dimgray; }
     #brochettes #guestreviews #food {
       font-family: 'Lato', cursive;
       font-size: 18x;
@@ -194,26 +197,25 @@ body {
   #contact #imag {
     display: flex;
     flex-direction: row;
-    width: 70%;
-    padding: 5% 2% 5% 15%; }
+    width: 60%;
+    padding: 5% 0 5% 15%; }
   #contact img {
     padding-right: 2%; }
   #contact #theend {
-    width: 30%;
+    width: 26%;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 5%;
-    margin-left: 2%;
-    margin-right: 15%; }
+    margin-right: 10%; }
     #contact #theend h2 {
       font-family: 'Yeseva One', cursive;
       font-weight: 400;
       color: #cc9900;
       text-align: center;
       font-size: 36px;
-      margin-left: 10%;
-      margin-right: 10%;
+      margin-left: 5%;
+      margin-right: 5%;
       line-height: 1.5;
       margin-bottom: 3%; }
     #contact #theend #textcker2 {
@@ -221,16 +223,6 @@ body {
       font-size: 16px;
       text-align: center;
       margin-top: 6%; }
-    #contact #theend .button {
-      border-bottom: none;
-      font-family: 'Open Sans', sans-serif;
-      font-size: 16px;
-      color: white;
-      background: #c9a131;
-      text-decoration: none;
-      margin-top: 2%;
-      margin-left: 35%;
-      padding: 4% 15%; }
   #contact .titre {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
@@ -238,21 +230,32 @@ body {
     color: #c9a131;
     margin-left: 5%; }
   #contact #titre {
-    border-bottom: 2px solid #c9a131; }
+    border: 1px solid #c9a131; }
+  #contact #date {
+    border: 1px solid #7c7c7c; }
   #contact select {
-    border-bottom: 1px solid #7c7c7c;
-    padding: 5.5% 16%;
+    padding: 5% 16%;
     font-family: 'Open Sans', sans-serif;
     font-style: italic;
-    font-size: 16px; }
+    font-size: 16px;
+    color: #7c7c7c; }
   #contact input {
     font-family: 'Open Sans', sans-serif;
     font-style: italic;
     font-size: 16px;
     font-weight: 700;
     color: #7c7c7c;
-    padding: 5% 8%;
-    box-sizing: border-box; }
+    padding: 5% 8%; }
+  #contact .button {
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid #c9a131;
+    font-size: 16px;
+    color: white;
+    background: #c9a131;
+    text-decoration: none;
+    margin-top: 2%;
+    margin-left: 35%;
+    padding: 4% 15%; }
   #contact #formu {
     display: flex;
     flex-direction: row;
